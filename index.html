@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function ValidateClass(str) {
+        regexp = /^[ACP][0-9]+[GHIKLM]$/;
+        return regexp.test(str);
+    }
+    alert(ValidateClass("C0318G"));
+    alert(ValidateClass("M0318G"));
+</script>
+</body>
+</html>
